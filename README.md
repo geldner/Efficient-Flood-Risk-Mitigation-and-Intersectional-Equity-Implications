@@ -1,1 +1,3 @@
 "# Efficient-Flood-Risk-Mitigation-and-Intersectional-Equity-Implications" 
+
+To reproduce the results from the manuscript, albeit without location information beyond neighborhood identifier corresponding to the shapefile here https://portal-nolagis.opendata.arcgis.com/maps/e7daa4c977d14e1b9e2fa4d7aff81e59/about, simply download the R script, unzip the dataset, change the data_dir to point to the desired working directory and the fread() command to point to the unzipped dataset. Previous installation of data.table and bit64 packages are required.
